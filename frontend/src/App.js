@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Restaurants from "./components/containers/Restaurants";
 import Orders from "./components/containers/Orders";
 import Foods from "./components/containers/Foods";
+import "./styles/global.css";
 
 function App() {
   return (
